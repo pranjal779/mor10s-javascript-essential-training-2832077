@@ -1,4 +1,5 @@
 /**
+ * lesson Global Objects
  * Use the global Date() object to transform dates.
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
  */
@@ -18,3 +19,5 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("Date acquired:", everydayPack.dateAcquired);
+
+console.log("Date since acquired:", everydayPack.backpackAge());

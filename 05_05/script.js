@@ -51,3 +51,23 @@ const content = `
 `;
 
 main.innerHTML = content;
+
+/**
+ * document.querySelector("h1").className
+ *
+ * document.querySelector("h1").className = "new-class"
+ *
+ * document.querySelector("main li:firs-child").classList
+ *
+ *
+ * classList property is very powerfull with different methods
+ * document.querySelector("main li:firs-child").classList.add("new-class")
+ *
+ * document.querySelector("main li:firs-child").classList.remove("new-class")
+ *
+ * document.querySelector("main li:firs-child").classList.toggle("new-class")
+ *
+ * document.querySelector("main li:firs-child").classList.replace("packprop", "new-class")
+ *
+ *
+ */

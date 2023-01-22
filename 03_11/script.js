@@ -1,4 +1,5 @@
 /**
+ * Lesson Object Constructors
  * Create an object constructor function for the Backpack object type.
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
  */
@@ -30,6 +31,7 @@ function Backpack(
   };
 }
 
+// eslint-disable-next-line no-unused-vars
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,

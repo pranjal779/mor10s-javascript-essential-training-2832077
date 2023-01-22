@@ -4,6 +4,10 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
  */
 
+/**
+ * use Document.createElement()
+ */
+
 import Backpack from "./Backpack.js";
 
 const everydayPack = new Backpack(
@@ -19,7 +23,7 @@ const everydayPack = new Backpack(
 );
 
 const content = `
-  <article class="backpack" id="everyday">
+  
     <figure class="backpack__image">
       <img src=${everydayPack.image} alt="" />
     </figure>
@@ -45,9 +49,24 @@ const content = `
         everydayPack.lidOpen
       }</span></li>
     </ul>
-  </article>
 `;
 
 const main = document.querySelector(".maincontent");
 
-main.innerHTML = content;
+const newArticle = document.createElement("article");
+
+// removing article tag after line 50 and on line 26
+newArticle.classList.add("backpack");
+newArticle.setAttribute("id", "everyday");
+newArticle.innerHTML = content;
+// parentNode.append()
+
+main.append(newArticle);
+
+// main.innerHTML = content; -> removing this line changes the text orientation the text comes under the title is changed to line 61.
+// if you want to add an element as the first child of the parent
+// ParentNode.prepend() Just places the element at the top instead of at the bottom of the parent element.
+// Node.appendChild()
+// Node.replaceChild()
+// Node.insertBefore()
+// Element.insertAdjacentElement()

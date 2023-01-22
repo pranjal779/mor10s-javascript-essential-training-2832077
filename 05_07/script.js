@@ -1,4 +1,6 @@
 /**
+ * Inline style
+ *
  * Traverse the DOM tree using querySelector() and querySelectorAll()
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
@@ -51,3 +53,20 @@ const content = `
 `;
 
 main.innerHTML = content;
+
+/**
+ * document.querySelector(".site-tilte").style
+ *
+ * document.querySelector(".site-title").style.color
+ *
+ * document.querySelector(".site-title").style.color = "rebeccapurple"
+ *
+ * document.querySelector(".site-tilte").style
+ *
+ * document.querySelector(".site-title").style.color = "pink"
+ *
+ *  So if you want to set a CSS property and you wonder what is the correct property name,
+ * all you have to do is go through the elements in question and just call the style property.
+ * You get the full CSS style declaration list, and then you can scroll down and find the property name you're looking for
+ * and use that to target that particular property.
+ */

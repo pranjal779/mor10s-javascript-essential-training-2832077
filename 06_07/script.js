@@ -14,3 +14,4 @@ if (a == b) {
 } else {
   console.error(`No match: let a and let b are NOT same value.`);
 }
+// try === for line 12 also

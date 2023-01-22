@@ -51,3 +51,28 @@ const content = `
 `;
 
 main.innerHTML = content;
+
+/**
+ * Lesson 6
+ *
+ * Element.attributes => MDN doc
+ *
+ * gives a NameNodeMap
+ *
+ * document.querySelector("img").attributes
+ *
+ * document.querySelector("img").hasAttributes("title")
+ *
+ * document.querySelector("img").getAttributes("src")
+ *
+ * document.querySelector("img").getAttributes("alt")
+ *
+ * document.querySelector("img").setAttributes("alt")
+ *
+ * document.querySelector("img").setAttributes("alt", "A drawing of a backpack")
+ *
+ * for example purpose for the image element
+ * document.querySelector("img").setAttributes("title", "This shouldn't be here")
+ *
+ * document.querySelector("img").removeAttributes("title")
+ */

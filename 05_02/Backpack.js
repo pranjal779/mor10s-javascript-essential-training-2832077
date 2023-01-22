@@ -39,3 +39,31 @@ class Backpack {
 }
 
 export default Backpack;
+
+/** chapter 5 lesson 2
+ * document.querySelector("main")
+ * document.querySelector(".maincontent")
+ *
+ *
+ *  check MDN
+ * Document.querySelector()
+ * Document.querySelectorAll()
+ * document.querySelectorAll("main li")
+ * document.querySelectorAll("main li").forEach(item => item.style.background= "red")
+ *
+ * document.querySelectorAll("main li:last-child").forEach(item => item.style.background= "blue")
+ *
+ * querySelector targets CSS query using JavaScripot
+ *
+ * lesson 3
+ * Element.getElemwntsByClassName() #old, querySelector is better
+ * document.getElementsByClassName("packprop")
+ * document.getElementByClassName("packprop backpack_color")
+ * document.getElementByID("everyday")
+ *
+ * lesson 4
+ * pactice 5_4
+ *
+ *
+ *
+ */

@@ -23,3 +23,19 @@ const backpack = {
 
 console.log("The backpack object:", backpack);
 console.log("The pocketNum value:", backpack.pocketNum);
+
+/**
+ * lesson Object methods
+ * backpack.lidOpen
+ * false
+ * backpack.toggleLid(true)  toggleLid is a function, a method needs to told something inside a ().
+ * undefined
+ * backpack.lidOpen
+ * true
+ */
+
+console.log("left before:", backpack.strapLength.left);
+
+backpack.newStrapLength(10, 15);
+
+console.log("left after:", backpack.strapLength.left);

@@ -1,4 +1,5 @@
 /**
+ * lesson Classes: Object blueprints
  * Creating classes:
  *
  * Class declaration: class Name {}

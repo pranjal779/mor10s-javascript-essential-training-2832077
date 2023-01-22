@@ -1,0 +1,13 @@
+main function
+create a new article element (two or more)
+populate with content from the object projecties
+return the new element
+
+second fucntion
+Create a new figure elementpopulate with an image pointing to the image URL defined in the object
+Add <figcaption> with the image description
+Return the whole figure
+
+finally
+Use querySelector and the append method
+Pass the object to the main fucntionPass it to the figure functionreturn everything to the main function
